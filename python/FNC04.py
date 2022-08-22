@@ -1,6 +1,6 @@
 from scipy import *
 from scipy.linalg import norm,lstsq
-from numpy import finfo
+from numpy import finfo, double
 eps = finfo(double).eps 
 import warnings
 
